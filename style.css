@@ -1,0 +1,184 @@
+/*------------------------CSS Basic Properties------------------------*/
+body {
+    background-color: grey;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+h2 {
+    color: purple;
+}
+
+#id_para {
+    color: yellow;
+}
+
+p.class_para {
+    color: greenyellow;
+}
+
+h4.class_para {
+    color: blue;
+}
+
+p.rgb {
+    color: rgb(255, 150, 200);
+}
+
+h3.hex {
+    color: #004200;
+}
+
+h2.bg {
+    background: #000;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url();
+
+}
+
+p.border {
+    border-style: double;
+}
+
+p.border2 {
+    border-style: dashed;
+}
+
+p.border3 {
+    border-style: dotted;
+}
+
+p.border4 {
+    border-style: groove;
+}
+
+p.border5 {
+    border-style: ridge;
+}
+
+div.margins {
+    margin: 40px;
+    background-color: black;
+    height: 200px;
+    width: 300px;
+}
+
+div.paddings {
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    padding: 50px 100px;
+}
+
+div.box{
+    height: 200px;
+    width: 400px;
+    padding: 30px;
+    margin: 50px;
+   
+    border: 10px solid green;
+}
+
+p.outline{
+    outline-style: dashed;
+}
+p.outline2{
+    outline-style:dotted;
+}
+
+h2.text{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: #004200;
+}
+
+p.font{
+    color: greenyellow;
+}
+
+.links a{
+    color: yellow;
+}
+
+.links a:hover{
+    color: black;
+}
+
+.links a:visited{
+    color: white;
+}
+
+.links a:active{
+    color: orange;
+}
+
+ul li{
+    list-style-type: circle;
+}
+
+ol li{
+    list-style-type: disc;
+}
+
+ol.none li{
+    list-style: none;
+    display: inline;
+}
+
+table, tr, td{
+    border: 1px solid yellowgreen;
+    width: 100%;
+}
+
+div.max{
+    width: 500px;
+    margin: auto;
+    border: 3px dashed yellow;
+}
+
+div.static{
+    width: 400px;
+    height: 300px;
+    background: yellowgreen;
+    border: 5px solid #eee;
+    position: static;
+    margin: 20px;
+    float: right;
+}
+div.fixed{
+    width: 40px;
+    height: 30px;
+    background: blue;
+    border: 5px solid #eee;
+    position: fixed;
+    margin: 20px;
+    right: 0;
+    bottom: 0;
+}
+
+
+span.a{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding:5px;
+    background:yellow;
+}
+span.b{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding:5px;
+    background:green;
+}
+span.c{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding:5px;
+    background:blue;
+}
